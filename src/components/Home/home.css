@@ -1,6 +1,5 @@
 .home-container{
-    position: absolute;
-    top: 8rem;
+    position: relative;
     display: block;
     align-items: baseline;
     width: 60rem;
@@ -20,7 +19,6 @@
 
 .home-img{
     position: relative;
-    /* top: 8rem; */
     width: 90rem;
     height: 58.25rem;
 }

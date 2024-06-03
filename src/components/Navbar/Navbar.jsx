@@ -9,10 +9,10 @@ const Navbar = () => {
     <div className='nav-container'>
       <Button title={"Home"}/>
       <Button title={"About"}/>
-      <Button title={"Services"}/>
+      <Button title={"Projects"}/>
       <Logo />
       <Button title={"Resume"}/>
-      <Button title={"Project"}/>
+      <Button title={"Services"}/>
       <Button title={"Contact"}/>
     </div>
   )

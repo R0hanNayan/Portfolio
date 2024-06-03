@@ -1,0 +1,32 @@
+.logo-container{
+    position: relative;
+    width: 19.188rem;
+    height: 5.375rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    font-family: "Numans", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+}
+
+.initials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 2.875rem;
+    width: 2.875rem;
+    border: none;
+    border-radius: 100%;
+    background-color: #FD853A;
+    letter-spacing: -0.2rem;
+}
+.name{
+    letter-spacing: 0.2rem;
+}

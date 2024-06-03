@@ -1,0 +1,21 @@
+.btn-container{
+    position: relative;
+    border: none;
+    border-radius: 3.75rem;
+    width: 136px;
+    height: 66px;
+    font-family: "Numans", sans-serif;
+    font-weight: none;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.btn-container:hover{
+    background-color: #FD853A;
+    font-weight: bold;
+}
+
+.btn-text{
+    color: white;
+    text-align: center;
+}

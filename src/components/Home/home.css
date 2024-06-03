@@ -1,0 +1,26 @@
+.home-container{
+    position: absolute;
+    top: 8rem;
+    display: block;
+    align-items: baseline;
+    width: 60rem;
+    height: 38.25rem;
+    background-image: url('../../assets/home1.png');
+    background-size: cover;         
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.home-container:hover{
+    background-image: url('../../assets/home2.png');
+    -webkit-transition: background-image 500ms ease-in-out;
+    -ms-transition: background-image 500ms ease-in-out;
+    transition: background-image 500ms ease-in-out;
+}
+
+.home-img{
+    position: relative;
+    /* top: 8rem; */
+    width: 90rem;
+    height: 58.25rem;
+}

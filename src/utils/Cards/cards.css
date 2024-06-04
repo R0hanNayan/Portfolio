@@ -11,6 +11,12 @@
     background-size: cover;                     
     background-repeat: no-repeat;
     background-position: center center; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-container:hover{
+    width: 39.313rem;
+    height: 25.188rem;
 }
 
 .card-link {
@@ -48,7 +54,7 @@
 .card-title{
     font-family: "Numans", sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: white;
     letter-spacing: 0.2rem;
     margin-left: 2rem;
@@ -56,7 +62,7 @@
 
 .card-description{
     font-family: "Numans", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     color: white;
     margin-left: 2rem;
     overflow: hidden;

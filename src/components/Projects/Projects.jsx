@@ -30,7 +30,7 @@ const Projects = () => {
             return(
               <Cards 
                 title={project.name}
-                description={project.description}
+                description={project.description.length > 100 ? project.description.slice(0, 95)+'...' : project.description}
                 img={project.img}
                 link={project.link}
               />

@@ -4,6 +4,7 @@ import Cards from '../../utils/Cards/Cards';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import ProjectList from './index.js';
 
 const Projects = () => {
 
@@ -24,15 +25,18 @@ const Projects = () => {
     <div className='project-container'>
       <p className='projects'>My <span className='projects-span'>Projects</span></p>
       <Slider className='project-list' {...settings}>
-        <div className='card'>
-          <Cards />
-        </div>
-        <div className='card'>
-          <Cards />
-        </div>
-        <div className='card'>
-          <Cards />
-        </div>
+        {
+          ProjectList.map((project) => {
+            return(
+              <Cards 
+                title={project.name}
+                description={project.description}
+                img={project.img}
+                link={project.link}
+              />
+            )
+          })
+        }
       </Slider>
     </div>
   )

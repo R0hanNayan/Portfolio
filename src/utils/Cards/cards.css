@@ -1,8 +1,64 @@
-.card-container{
+.card-container {
     position: relative;
     border: none;
     border-radius: 1.25rem;
     width: 38.313rem;
     height: 23.188rem;
-    background-color: brown;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.card-link {
+    position: absolute;
+    right: 1rem;
+}
+
+.card-link-img {
+    border: none;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-link-img:hover {
+    height: 110%;
+    width: 110%;
+}
+
+.card-intro {
+    position: absolute;
+    width: 37.313rem;
+    height: 12.688rem;
+    bottom: 1rem;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 0.5rem;
+}
+
+.card-title{
+    font-family: "Numans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    margin-left: 2rem;
+}
+
+.card-description{
+    font-family: "Numans", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-left: 2rem;
+    overflow: hidden;
+    word-wrap: break-word;
 }

@@ -13,7 +13,7 @@ const Hireme = () => {
         <p className='hireme-description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
         <h3 className='hireme-projectCount'>25+</h3>
         <p className='hireme-description'>Projects Completed</p>
-        <button className='hireme-btn'>Hire me</button>
+        <button className='hireme-btn'><a href="https://drive.google.com/file/d/1Df6Jsz6HKB1gHfX419UJyudk72cPZpTA/view?usp=sharing" target="_blank">Hire me</a></button>
       </div>
     </div>
   )

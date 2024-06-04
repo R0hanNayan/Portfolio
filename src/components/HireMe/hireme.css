@@ -1,14 +1,14 @@
 .hireme-container{
     position: relative;
-    top: -1rem;
+    top: -4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* border: 1px solid black; */
-    width: 90rem;
-    height: 50.375rem;
+    border-radius: 3.125rem;
+    background-color: #F2F4F7;
+    padding: 1rem;
 }
 
 .hireme-img-container{
@@ -60,7 +60,7 @@
     padding: 1rem;
     border-radius: 1.5rem;
     outline: none;
-    margin-top: 2.3rem;
+    margin-top: 1rem;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -69,4 +69,9 @@
     border: none;
     background-color: #FD853A;
     color: white;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }

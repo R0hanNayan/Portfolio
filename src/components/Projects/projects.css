@@ -1,9 +1,9 @@
-.project-container{
+.project-container {
     position: relative;
     background-image: url('../../assets/bg1.png');
-    background-size: cover;         
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;  
+    background-position: center center;
     width: 90rem;
     height: 54.875rem;
     top: -3.5rem;
@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-.projects{
+.projects {
     margin-top: 6rem;
     margin-left: 6rem;
     color: white;
@@ -20,6 +20,13 @@
     font-size: 3rem;
 }
 
-.projects-span{
+.projects-span {
     color: #FD853A;
 }
+
+.project-list {
+    padding: 4rem;
+}
+
+
+

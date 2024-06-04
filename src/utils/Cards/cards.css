@@ -1,0 +1,8 @@
+.card-container{
+    position: relative;
+    border: none;
+    border-radius: 1.25rem;
+    width: 38.313rem;
+    height: 23.188rem;
+    background-color: brown;
+}

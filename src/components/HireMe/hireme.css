@@ -1,0 +1,72 @@
+.hireme-container{
+    position: relative;
+    top: -1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* border: 1px solid black; */
+    width: 90rem;
+    height: 50.375rem;
+}
+
+.hireme-img-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hireme-img{
+    width: 43.5rem;
+    height: 45rem;
+}
+
+.hireme-content-container{
+    width: 42.5rem;
+    height: 43rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    font-family: "Numans", sans-serif;
+}
+
+.hireme-heading{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.hireme-span{
+    color: #FD853A;
+}
+
+.hireme-description{
+    font-size: 1.35rem;
+    line-height: 1.8rem;
+    color: #98A2B3;
+}
+
+.hireme-projectCount{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    margin-bottom: -1rem;
+}
+
+.hireme-btn{
+    font-size: 3.5rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    outline: none;
+    margin-top: 2.3rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hireme-btn:hover{
+    border: none;
+    background-color: #FD853A;
+    color: white;
+}

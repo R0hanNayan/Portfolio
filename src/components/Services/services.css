@@ -1,0 +1,34 @@
+.services-container{
+    position: relative;
+    background-image: url('../../assets/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 90rem;
+    height: 54.875rem;
+    top: -5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-h{
+    margin-top: 6rem;
+    margin-left: 6rem;
+    color: white;
+    font-family: "Numans", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.services-span{
+    color: #FD853A;
+}
+
+.services-list{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}

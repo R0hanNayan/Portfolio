@@ -28,7 +28,7 @@ const Contact = () => {
                 <div className='contact-details'>
                     <h3 className='contact-details-header'>Contact</h3>
                     <p className='contact-options'>rohannayan405@gmail.com</p>
-                    <a className='contact-options' href='nayanrohan.netlify.app'>nayanrohan.netlify.app</a>
+                    <p className='contact-options'>nayanrohan.netlify.app</p>
                 </div>
             </div>
             <p className='contact-line'></p>

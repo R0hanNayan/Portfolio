@@ -1,0 +1,110 @@
+.contact-container{
+    position: relative;
+    bottom: 0;
+    width: 90rem;
+    height: 42.813rem;
+    margin-top: -8rem;
+    background-color: #272727;
+    border-top-left-radius: 3.5rem;
+    border-top-right-radius: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.contact-headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width: 81.125rem;
+    height: 9.375rem;
+    font-family: "Numans", sans-serif;
+    color: white;
+}
+
+.contact-h1{
+    margin-left: 2rem;
+    font-size: 3.5rem;
+}
+
+.contact-btn{
+    width: 14rem;
+    height: 5.5rem;
+    margin-left: 28rem;
+    font-family: "Numans", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    color: white;
+    background-color: #FD853A;
+    border: none;
+    border-radius: 3.5rem;
+    padding: 1rem;
+}
+
+.contact-line{
+    width: 81.125rem;
+    border: 0.1rem solid;
+    color: #475467;
+}
+
+.contact-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-logo{
+    margin-right: 25rem;
+    padding: 4rem;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact-details{
+    font-family: "Numans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-details-header{
+    color: #FD853A;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    margin-bottom: -0.2rem;
+}
+
+.contact-options{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.copyright{
+    font-family: "Numans", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+a:hover, a:focus{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}

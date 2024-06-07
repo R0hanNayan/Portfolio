@@ -5,6 +5,7 @@ import Projects from './components/Projects/Projects';
 import Hireme from './components/HireMe/Hireme';
 import Services from './components/Services/Services';
 import Discuss from './components/Discuss/Discuss';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hireme />
       <Services />
       <Discuss />
+      <Contact />
     </div>
   );
 }

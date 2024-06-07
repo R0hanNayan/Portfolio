@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className='project-container'>
+    <div className='project-container' id='projects'>
       <p className='projects'>My <span className='projects-span'>Projects</span></p>
       <Slider className='project-list' {...settings}>
         {

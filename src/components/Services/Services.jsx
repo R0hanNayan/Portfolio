@@ -7,7 +7,7 @@ import service3 from '../../assets/service3.png';
 
 const Services = () => {
   return (
-    <div className='services-container'>
+    <div className='services-container' id='services'>
       <p className='services-h'>My <span className='services-span'>Services</span></p>
       <div className='services-list'>
         <ServiceCard 

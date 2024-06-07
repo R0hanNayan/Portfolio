@@ -4,13 +4,16 @@ import Logo from '../../utils/Logo/Logo';
 import Github from '../../assets/Github.png';
 import LinkedIn from '../../assets/LinkedIn.png';
 import Twitter from '../../assets/Twitter.png';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Contact = () => {
     return (
         <div className='contact-container'>
             <div className='contact-headers'>
                 <h1 className='contact-h1'>Lets Connect there</h1>
-                <button className='contact-btn'>Hire me ↗</button>
+                <AnchorLink href="#resume">
+                    <button className='contact-btn'>Hire me ↗</button>
+                </AnchorLink>
             </div>
             <p className='contact-line'></p>
             <div className='contact-contents'>

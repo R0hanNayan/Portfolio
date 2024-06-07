@@ -7,9 +7,9 @@ const Discuss = () => {
         <div className='discuss-container'>
             <h2 className='discuss-header'>Have an Awsome Project Idea? <br /><span className='discuss-span'>Let's Discuss</span></h2>
             <form className='discuss-mailBox' action="mailto:rohannayan405@gmail.com" method="get" enctype="text/plain">
-                <img src={mailBox} alt="mailbox" />
-                <input type="text" name="subject" placeholder="Your Email" />
-                <button type='submit'>Send</button>
+                <img className='mailbox' src={mailBox} alt="mailbox" />
+                <input className='email' type="email" name="email" required="required" placeholder="Enter Email Address" />
+                <button className='send-btn' type='submit'>Send</button>
             </form>
         </div>
     )
